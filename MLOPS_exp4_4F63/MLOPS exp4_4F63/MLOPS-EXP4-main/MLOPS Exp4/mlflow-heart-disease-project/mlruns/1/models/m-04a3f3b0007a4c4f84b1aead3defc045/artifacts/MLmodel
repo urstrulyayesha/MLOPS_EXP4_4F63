@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Shaik sameera/Desktop/MLOPS Exp4/mlflow-heart-disease-project/mlruns/1/models/m-04a3f3b0007a4c4f84b1aead3defc045/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-04a3f3b0007a4c4f84b1aead3defc045
+model_size_bytes: 29633
+model_uuid: m-04a3f3b0007a4c4f84b1aead3defc045
+prompts: null
+run_id: 39998666c2f245f7bdbe13cf99dcee2d
+utc_time_created: '2026-09-21 15:53:45.705226'
